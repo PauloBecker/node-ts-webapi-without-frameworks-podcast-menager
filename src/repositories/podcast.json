@@ -1,0 +1,26 @@
+[
+     {
+                "podcastName": "flow",
+                "episode": "CBUM - Flow #319",
+                "videoID": "pQSuQmUfS30",
+                "category": ["saúde","esporte", "bodybuilder"]
+            },
+            {
+                "podcastName": "flow",
+                "episode": "RUBENS BARRICHELLO - Flow #339",
+                "videoID": "4KDGTdiOV4I",
+                "category": ["esporte","corrida"]
+            },
+            {
+                "podcastName": "dev",
+                "episode": "PAULO BECKER - Flow #1981",
+                "videoID": "000000000000",
+                "category": ["esporte","música","programação"]
+            },
+            {
+                "podcastName": "BMX",
+                "episode": "MATT HOFFMANN - Flow #1989",
+                "videoID": "99999999999",
+                "category": ["esportes radicais","música","aventura"]
+            }
+]
