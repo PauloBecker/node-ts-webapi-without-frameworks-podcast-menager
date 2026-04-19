@@ -12,14 +12,13 @@ O Podcast Manager é uma API REST robusta construída em Node.js, projetada para
     Categorização: Suporte a múltiplas categorias como saúde, fitness, mentalidade, humor, entre outras.
 
 🛠️ Tecnologias Utilizadas
-```
-O projeto foi desenvolvido utilizando o que há de mais moderno no ecossistema Node.js para garantir performance e uma excelente experiência de desenvolvimento:
 
-    Node.js: Ambiente de execução principal.
-    TypeScript (^6.0.2): Superset Javascript que adiciona tipagem estática, garantindo um código mais seguro e menos propenso a erros.
-    TSUP (^8.5.1): Ferramenta de build extremamente rápida, utilizada para compilar o código TypeScript em JavaScript puro de forma otimizada.
-    TSX (^4.21.0): Executor que permite rodar arquivos TypeScript diretamente no ambiente de desenvolvimento, sem a necessidade de compilação manual prévia.
-    @types/node (^25.6.0): Definições de tipo para as APIs nativas do Node.js, permitindo o uso completo do Intellisense no VS Code.
+```
+- **[Node.js](https://nodejs.org):** Ambiente de execução principal.
+*   [TypeScript](https://typescriptlang.org) (^6.0.2) - Tipagem forte para maior segurança.
+*   [TSUP](https://egoist.dev) (^8.5.1) - Ferramenta de build extremamente veloz.
+*   [TSX](https://tsx.is) (^4.21.0) - Executor TypeScript direto para desenvolvimento.
+*   [@types/node](https://npmjs.com) (^25.6.0) - Definições de tipo para APIs nati
 ```
 📂 Estrutura de Pastas
 O projeto utiliza uma arquitetura baseada em camadas para facilitar a manutenção:
