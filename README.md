@@ -13,15 +13,16 @@ O Podcast Manager é uma API REST robusta construída em Node.js, projetada para
 
 🛠️ Tecnologias Utilizadas
 
-```
-- **[Node.js](https://nodejs.org):** Ambiente de execução principal.
+
+*   [Node.js](https://nodejs.org) - Ambiente de execução principal.
 *   [TypeScript](https://typescriptlang.org) (^6.0.2) - Tipagem forte para maior segurança.
 *   [TSUP](https://egoist.dev) (^8.5.1) - Ferramenta de build extremamente veloz.
 *   [TSX](https://tsx.is) (^4.21.0) - Executor TypeScript direto para desenvolvimento.
 *   [@types/node](https://npmjs.com) (^25.6.0) - Definições de tipo para APIs nati
-```
+
 📂 Estrutura de Pastas
 O projeto utiliza uma arquitetura baseada em camadas para facilitar a manutenção:
+
 ```
 src/
 ├── controllers/    # Gerenciamento de rotas e respostas HTTP
@@ -35,15 +36,13 @@ src/
 
 📝 Como Consumir a API
 ```
-1. Crie um arquivo `.env` na raiz do projeto.
-
-2. Listar todos os episódios
+1. Listar todos os episódios
 Retorna a lista completa de episódios formatada com metadados.
 
     URL: http://localhost:3636/api/list
     Método: GET
 
-3. Filtrar episódios por nome
+2. Filtrar episódios por nome
 Filtra os episódios com base no nome do podcast passado pela URL.
 
     URL: http://localhost:3333/api/episode?p=flow
@@ -75,7 +74,15 @@ json
 
     npm install
 ```
-  3 - Executar em modo de desenvolvimento:
+3 - Variáveis de Ambiente:
+
+Crie um arquivo .env na raiz do projeto:
+```
+env
+
+PORT=3636
+```
+4 - Executar em modo de desenvolvimento:
   ```
     bash
 
